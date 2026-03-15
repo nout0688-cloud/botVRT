@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+    background: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 1px solid #555;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    transition: all 0.2s;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.radar-point {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+}
